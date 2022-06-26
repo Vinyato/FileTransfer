@@ -50,6 +50,6 @@ if __name__ == "__main__":
     # host = args.host
     # port = args.port
     filename = 'text.txt'
-    host = '0.0.0.0'
+    host = '192.168.56.1'
     port = 5001
     send_file(filename, host, port)
